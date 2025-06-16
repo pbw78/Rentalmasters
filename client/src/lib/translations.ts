@@ -1,0 +1,422 @@
+export const translations = {
+  pl: {
+    // Navigation
+    'nav.dashboard': 'Dashboard',
+    'nav.properties': 'Nieruchomości',
+    'nav.tenants': 'Najemcy',
+    'nav.contracts': 'Umowy',
+    'nav.payments': 'Płatności',
+    'nav.service': 'Serwis',
+    'nav.reports': 'Raporty',
+    'nav.users': 'Użytkownicy',
+    'nav.settings': 'Ustawienia',
+    
+    // Dashboard
+    'dashboard.title': 'Dashboard',
+    'dashboard.lastUpdate': 'Ostatnia aktualizacja:',
+    'stats.properties': 'Nieruchomości',
+    'stats.activeTenants': 'Aktywni najemcy',
+    'stats.monthlyRevenue': 'Miesięczny przychód',
+    'stats.pendingIssues': 'Oczekujące sprawy',
+    'stats.fromLastMonth': 'od poprzedniego miesiąca',
+    'stats.newThisMonth': 'nowych w tym miesiącu',
+    'stats.urgent': 'pilne',
+    
+    // Quick Actions
+    'quickActions.title': 'Szybkie akcje',
+    'quickActions.addProperty': 'Dodaj nieruchomość',
+    'quickActions.addPropertyDesc': 'Nowy lokal do wynajęcia',
+    'quickActions.addTenant': 'Dodaj najemcę',
+    'quickActions.addTenantDesc': 'Nowy najemca',
+    'quickActions.createContract': 'Utwórz umowę',
+    'quickActions.createContractDesc': 'Nowa umowa najmu',
+    'quickActions.recordPayment': 'Dodaj płatność',
+    'quickActions.recordPaymentDesc': 'Zapisz czynsz',
+    'quickActions.addServiceRequest': 'Zgłoś serwis',
+    'quickActions.addServiceRequestDesc': 'Nowe zgłoszenie',
+    
+    // Common
+    'common.filter': 'Filtruj',
+    'common.export': 'Eksport',
+    'common.cancel': 'Anuluj',
+    'common.save': 'Zapisz',
+    'common.edit': 'Edytuj',
+    'common.delete': 'Usuń',
+    'common.add': 'Dodaj',
+    'common.search': 'Szukaj',
+    'common.loading': 'Ładowanie...',
+    'common.noData': 'Brak danych',
+    'common.confirm': 'Potwierdź',
+    'common.close': 'Zamknij',
+    
+    // Forms
+    'form.address': 'Adres',
+    'form.city': 'Miasto',
+    'form.propertyType': 'Typ nieruchomości',
+    'form.area': 'Powierzchnia (m²)',
+    'form.rooms': 'Liczba pokoi',
+    'form.bathrooms': 'Liczba łazienek',
+    'form.rent': 'Czynsz (zł)',
+    'form.deposit': 'Kaucja (zł)',
+    'form.description': 'Opis',
+    'form.firstName': 'Imię',
+    'form.lastName': 'Nazwisko',
+    'form.email': 'Email',
+    'form.phone': 'Telefon',
+    'form.birthDate': 'Data urodzenia',
+    'form.nationalId': 'PESEL',
+    'form.emergencyContact': 'Kontakt awaryjny',
+    'form.notes': 'Notatki',
+    'form.property': 'Nieruchomość',
+    'form.tenant': 'Najemca',
+    'form.startDate': 'Data rozpoczęcia',
+    'form.endDate': 'Data zakończenia',
+    'form.monthlyRent': 'Miesięczny czynsz',
+    'form.paymentDay': 'Dzień płatności',
+    'form.contractTerms': 'Warunki umowy',
+    'form.amount': 'Kwota',
+    'form.paymentDate': 'Data płatności',
+    'form.paymentMethod': 'Metoda płatności',
+    'form.title': 'Tytuł',
+    'form.category': 'Kategoria',
+    'form.priority': 'Priorytet',
+    'form.assignedTo': 'Przypisane do',
+    'form.estimatedCost': 'Szacowany koszt',
+    
+    // Status
+    'status.available': 'Dostępne',
+    'status.rented': 'Wynajęte',
+    'status.maintenance': 'Remont',
+    'status.unavailable': 'Niedostępne',
+    'status.active': 'Aktywne',
+    'status.inactive': 'Nieaktywne',
+    'status.pending': 'Oczekujące',
+    'status.paid': 'Opłacone',
+    'status.overdue': 'Zaległość',
+    'status.open': 'Otwarte',
+    'status.inProgress': 'W trakcie',
+    'status.completed': 'Zakończone',
+    'status.cancelled': 'Anulowane',
+    
+    // Priority
+    'priority.low': 'Niski',
+    'priority.medium': 'Średni',
+    'priority.high': 'Wysoki',
+    'priority.urgent': 'Pilny',
+    
+    // Property types
+    'propertyType.apartment': 'Mieszkanie',
+    'propertyType.house': 'Dom',
+    'propertyType.studio': 'Studio',
+    'propertyType.loft': 'Loft',
+    
+    // Payment methods
+    'paymentMethod.transfer': 'Przelew',
+    'paymentMethod.cash': 'Gotówka',
+    'paymentMethod.card': 'Karta',
+    
+    // Service categories
+    'serviceCategory.plumbing': 'Hydraulika',
+    'serviceCategory.electrical': 'Elektryka',
+    'serviceCategory.heating': 'Ogrzewanie',
+    'serviceCategory.general': 'Ogólne',
+    
+    // Messages
+    'message.success': 'Sukces!',
+    'message.error': 'Błąd!',
+    'message.warning': 'Ostrzeżenie!',
+    'message.info': 'Informacja',
+    'message.saved': 'Zapisano pomyślnie',
+    'message.deleted': 'Usunięto pomyślnie',
+    'message.confirmDelete': 'Czy na pewno chcesz usunąć?',
+    
+    // User
+    'user.profile': 'Profil',
+    'user.logout': 'Wyloguj',
+    'user.admin': 'Administrator',
+    'user.role': 'Rola',
+  },
+  
+  en: {
+    // Navigation
+    'nav.dashboard': 'Dashboard',
+    'nav.properties': 'Properties',
+    'nav.tenants': 'Tenants',
+    'nav.contracts': 'Contracts',
+    'nav.payments': 'Payments',
+    'nav.service': 'Service',
+    'nav.reports': 'Reports',
+    'nav.users': 'Users',
+    'nav.settings': 'Settings',
+    
+    // Dashboard
+    'dashboard.title': 'Dashboard',
+    'dashboard.lastUpdate': 'Last update:',
+    'stats.properties': 'Properties',
+    'stats.activeTenants': 'Active tenants',
+    'stats.monthlyRevenue': 'Monthly revenue',
+    'stats.pendingIssues': 'Pending issues',
+    'stats.fromLastMonth': 'from last month',
+    'stats.newThisMonth': 'new this month',
+    'stats.urgent': 'urgent',
+    
+    // Quick Actions
+    'quickActions.title': 'Quick actions',
+    'quickActions.addProperty': 'Add property',
+    'quickActions.addPropertyDesc': 'New rental property',
+    'quickActions.addTenant': 'Add tenant',
+    'quickActions.addTenantDesc': 'New tenant',
+    'quickActions.createContract': 'Create contract',
+    'quickActions.createContractDesc': 'New lease agreement',
+    'quickActions.recordPayment': 'Record payment',
+    'quickActions.recordPaymentDesc': 'Record rent payment',
+    'quickActions.addServiceRequest': 'Add service request',
+    'quickActions.addServiceRequestDesc': 'New service request',
+    
+    // Common
+    'common.filter': 'Filter',
+    'common.export': 'Export',
+    'common.cancel': 'Cancel',
+    'common.save': 'Save',
+    'common.edit': 'Edit',
+    'common.delete': 'Delete',
+    'common.add': 'Add',
+    'common.search': 'Search',
+    'common.loading': 'Loading...',
+    'common.noData': 'No data',
+    'common.confirm': 'Confirm',
+    'common.close': 'Close',
+    
+    // Forms
+    'form.address': 'Address',
+    'form.city': 'City',
+    'form.propertyType': 'Property type',
+    'form.area': 'Area (m²)',
+    'form.rooms': 'Number of rooms',
+    'form.bathrooms': 'Number of bathrooms',
+    'form.rent': 'Rent',
+    'form.deposit': 'Deposit',
+    'form.description': 'Description',
+    'form.firstName': 'First name',
+    'form.lastName': 'Last name',
+    'form.email': 'Email',
+    'form.phone': 'Phone',
+    'form.birthDate': 'Birth date',
+    'form.nationalId': 'National ID',
+    'form.emergencyContact': 'Emergency contact',
+    'form.notes': 'Notes',
+    'form.property': 'Property',
+    'form.tenant': 'Tenant',
+    'form.startDate': 'Start date',
+    'form.endDate': 'End date',
+    'form.monthlyRent': 'Monthly rent',
+    'form.paymentDay': 'Payment day',
+    'form.contractTerms': 'Contract terms',
+    'form.amount': 'Amount',
+    'form.paymentDate': 'Payment date',
+    'form.paymentMethod': 'Payment method',
+    'form.title': 'Title',
+    'form.category': 'Category',
+    'form.priority': 'Priority',
+    'form.assignedTo': 'Assigned to',
+    'form.estimatedCost': 'Estimated cost',
+    
+    // Status
+    'status.available': 'Available',
+    'status.rented': 'Rented',
+    'status.maintenance': 'Maintenance',
+    'status.unavailable': 'Unavailable',
+    'status.active': 'Active',
+    'status.inactive': 'Inactive',
+    'status.pending': 'Pending',
+    'status.paid': 'Paid',
+    'status.overdue': 'Overdue',
+    'status.open': 'Open',
+    'status.inProgress': 'In Progress',
+    'status.completed': 'Completed',
+    'status.cancelled': 'Cancelled',
+    
+    // Priority
+    'priority.low': 'Low',
+    'priority.medium': 'Medium',
+    'priority.high': 'High',
+    'priority.urgent': 'Urgent',
+    
+    // Property types
+    'propertyType.apartment': 'Apartment',
+    'propertyType.house': 'House',
+    'propertyType.studio': 'Studio',
+    'propertyType.loft': 'Loft',
+    
+    // Payment methods
+    'paymentMethod.transfer': 'Transfer',
+    'paymentMethod.cash': 'Cash',
+    'paymentMethod.card': 'Card',
+    
+    // Service categories
+    'serviceCategory.plumbing': 'Plumbing',
+    'serviceCategory.electrical': 'Electrical',
+    'serviceCategory.heating': 'Heating',
+    'serviceCategory.general': 'General',
+    
+    // Messages
+    'message.success': 'Success!',
+    'message.error': 'Error!',
+    'message.warning': 'Warning!',
+    'message.info': 'Information',
+    'message.saved': 'Saved successfully',
+    'message.deleted': 'Deleted successfully',
+    'message.confirmDelete': 'Are you sure you want to delete?',
+    
+    // User
+    'user.profile': 'Profile',
+    'user.logout': 'Logout',
+    'user.admin': 'Administrator',
+    'user.role': 'Role',
+  },
+  
+  da: {
+    // Navigation
+    'nav.dashboard': 'Dashboard',
+    'nav.properties': 'Ejendomme',
+    'nav.tenants': 'Lejere',
+    'nav.contracts': 'Kontrakter',
+    'nav.payments': 'Betalinger',
+    'nav.service': 'Service',
+    'nav.reports': 'Rapporter',
+    'nav.users': 'Brugere',
+    'nav.settings': 'Indstillinger',
+    
+    // Dashboard
+    'dashboard.title': 'Dashboard',
+    'dashboard.lastUpdate': 'Sidste opdatering:',
+    'stats.properties': 'Ejendomme',
+    'stats.activeTenants': 'Aktive lejere',
+    'stats.monthlyRevenue': 'Månedlig omsætning',
+    'stats.pendingIssues': 'Afventende sager',
+    'stats.fromLastMonth': 'fra sidste måned',
+    'stats.newThisMonth': 'nye denne måned',
+    'stats.urgent': 'presserende',
+    
+    // Quick Actions
+    'quickActions.title': 'Hurtige handlinger',
+    'quickActions.addProperty': 'Tilføj ejendom',
+    'quickActions.addPropertyDesc': 'Ny udlejningsejendom',
+    'quickActions.addTenant': 'Tilføj lejer',
+    'quickActions.addTenantDesc': 'Ny lejer',
+    'quickActions.createContract': 'Opret kontrakt',
+    'quickActions.createContractDesc': 'Ny lejeaftale',
+    'quickActions.recordPayment': 'Registrer betaling',
+    'quickActions.recordPaymentDesc': 'Registrer husleje',
+    'quickActions.addServiceRequest': 'Tilføj serviceanmodning',
+    'quickActions.addServiceRequestDesc': 'Ny serviceanmodning',
+    
+    // Common
+    'common.filter': 'Filter',
+    'common.export': 'Eksporter',
+    'common.cancel': 'Annuller',
+    'common.save': 'Gem',
+    'common.edit': 'Rediger',
+    'common.delete': 'Slet',
+    'common.add': 'Tilføj',
+    'common.search': 'Søg',
+    'common.loading': 'Indlæser...',
+    'common.noData': 'Ingen data',
+    'common.confirm': 'Bekræft',
+    'common.close': 'Luk',
+    
+    // Forms
+    'form.address': 'Adresse',
+    'form.city': 'By',
+    'form.propertyType': 'Ejendomstype',
+    'form.area': 'Område (m²)',
+    'form.rooms': 'Antal værelser',
+    'form.bathrooms': 'Antal badeværelser',
+    'form.rent': 'Husleje',
+    'form.deposit': 'Depositum',
+    'form.description': 'Beskrivelse',
+    'form.firstName': 'Fornavn',
+    'form.lastName': 'Efternavn',
+    'form.email': 'Email',
+    'form.phone': 'Telefon',
+    'form.birthDate': 'Fødselsdato',
+    'form.nationalId': 'CPR',
+    'form.emergencyContact': 'Nødkontakt',
+    'form.notes': 'Noter',
+    'form.property': 'Ejendom',
+    'form.tenant': 'Lejer',
+    'form.startDate': 'Startdato',
+    'form.endDate': 'Slutdato',
+    'form.monthlyRent': 'Månedlig husleje',
+    'form.paymentDay': 'Betalingsdag',
+    'form.contractTerms': 'Kontraktvilkår',
+    'form.amount': 'Beløb',
+    'form.paymentDate': 'Betalingsdato',
+    'form.paymentMethod': 'Betalingsmetode',
+    'form.title': 'Titel',
+    'form.category': 'Kategori',
+    'form.priority': 'Prioritet',
+    'form.assignedTo': 'Tildelt til',
+    'form.estimatedCost': 'Anslået pris',
+    
+    // Status
+    'status.available': 'Tilgængelig',
+    'status.rented': 'Udlejet',
+    'status.maintenance': 'Vedligeholdelse',
+    'status.unavailable': 'Ikke tilgængelig',
+    'status.active': 'Aktiv',
+    'status.inactive': 'Inaktiv',
+    'status.pending': 'Afventende',
+    'status.paid': 'Betalt',
+    'status.overdue': 'Forsinket',
+    'status.open': 'Åben',
+    'status.inProgress': 'I gang',
+    'status.completed': 'Fuldført',
+    'status.cancelled': 'Annulleret',
+    
+    // Priority
+    'priority.low': 'Lav',
+    'priority.medium': 'Mellem',
+    'priority.high': 'Høj',
+    'priority.urgent': 'Presserende',
+    
+    // Property types
+    'propertyType.apartment': 'Lejlighed',
+    'propertyType.house': 'Hus',
+    'propertyType.studio': 'Studio',
+    'propertyType.loft': 'Loft',
+    
+    // Payment methods
+    'paymentMethod.transfer': 'Overførsel',
+    'paymentMethod.cash': 'Kontanter',
+    'paymentMethod.card': 'Kort',
+    
+    // Service categories
+    'serviceCategory.plumbing': 'VVS',
+    'serviceCategory.electrical': 'El',
+    'serviceCategory.heating': 'Varme',
+    'serviceCategory.general': 'Generel',
+    
+    // Messages
+    'message.success': 'Succes!',
+    'message.error': 'Fejl!',
+    'message.warning': 'Advarsel!',
+    'message.info': 'Information',
+    'message.saved': 'Gemt med succes',
+    'message.deleted': 'Slettet med succes',
+    'message.confirmDelete': 'Er du sikker på, at du vil slette?',
+    
+    // User
+    'user.profile': 'Profil',
+    'user.logout': 'Log ud',
+    'user.admin': 'Administrator',
+    'user.role': 'Rolle',
+  },
+};
+
+export type Language = 'pl' | 'en' | 'da';
+export type TranslationKey = keyof typeof translations.pl;
+
+export function getTranslation(key: TranslationKey, language: Language): string {
+  return translations[language]?.[key] || translations.pl[key] || key;
+}

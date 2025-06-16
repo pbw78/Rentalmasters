@@ -1,0 +1,86 @@
+Stwórz program/aplikację do zarządzania nieruchomościami.TOP aplikacje do zarządzania najmem.
+Na podstawie listy już gotowych aplikacji stwórz coś na ich wzór. Z pełnym działającym interfejsem, zakładaniem kont i kontem admina itp.
+Na bazie wszystkich dokumentów,popraw funkcjonalność. Chce w pełni działającą stronę z mozliwoscia dodawania, edycji i usuwania. Chce raporty, podsumowania. Strona ma działać w 3 językach: Polski,Angielski i Duński. Ma być prosta w obsłudzę. Zgap najlepsze funkcję z tych stron:
+🔐 Rentumi (PL)
+✅ System do zarządzania najmem (mieszkania, pokoje, MTR)
+✅ Moduły: umowy, opłaty, przypomnienia, raporty, obsługa najemców
+💰 Plan bezpłatny (dla 1 mieszkania) + płatne opcje od 49 zł/mc
+🌐 rentumi.pl
+➡️ Bardzo zbliżone do Twojego pomysłu (można nawet zacząć na Rentumi i potem rozwinąć własną wersję)
+
+🛠️ Estatetools (PL)
+✅ Obsługa zgłoszeń technicznych, panel dla właścicieli, e-faktury
+💰 Płatne (od ok. 25–99 zł/mc)
+🌐 estatetools.pl
+➡️ Bardziej nastawione na profesjonalnych zarządców wielu lokali
+
+🧾 Simpl.rent (PL)
+✅ Sprawdzanie najemców, umowy online, płatności, e-podpis
+💰 Część usług darmowa (np. pojedyncza weryfikacja)
+🌐 simpl.rent
+➡️ Narzędzie pomocnicze — możesz zintegrować z własnym systemem
+
+🧳 Hostaway / Guesty (świat)
+✅ Kompleksowe systemy dla Airbnb/Booking (short-term rental)
+✅ Channel manager + automatyczne wiadomości, ceny, kalendarz
+💰 Płatne (od $50/mc i więcej)
+➡️ Bardzo dobre, ale bardziej do krótkiego najmu (zautomatyzowanego)
+
+📊 Landlordy (PL, mobilna)
+✅ Aplikacja mobilna na Android/iOS do prostego zarządzania najmem
+✅ Czynsze, koszty, przypomnienia, zdjęcia
+💰 Wersja darmowa + PRO (od ok. 89 zł/rok)
+➡️ Dobre narzędzie jako wsparcie dla Ciebie w codziennych sprawach
+
+💬 Google Workspace + WhatsApp (manualny model)
+✅ Tani i skuteczny zestaw: Google Forms (zgłoszenia), Sheets (raporty), Calendar (płatności), WhatsApp (komunikacja)
+💰 Bezpłatne lub bardzo tanie
+➡️ Idealne do prostego MVP lub testu modelu zarządzania zdalnego
+
+Plan dalszego rozwoju i usprawnień RentalMaster
+Co zostało zrobione:
+✓ Poprawiono paletę kolorów i styl całej aplikacji
+✓ Dodano animacje i efekty wizualne dla kart i elementów interfejsu
+✓ Przeprojektowano stronę główną z nowoczesnymi sekcjami
+✓ Poprawiono komponenty Link w stronie głównej, aby obsługiwały poprawnie zagnieżdżone elementy
+✓ Zaimplementowano system zarządzania najemcami z pełnym CRUD
+✓ Dodano wielojęzyczność (polski, angielski, duński)
+
+Co należy poprawić:
+1. Błędy z komponentami i ostrzeżeniami:
+Naprawić ostrzeżenie zagnieżdżonych elementów <a> w Header.tsx - musimy poprawić implementację komponentu NavLink
+Utworzyć brakujące komponenty wskazane w błędach: TenantCard.tsx, TenantDetailModal.tsx, TenantForm.tsx
+Poprawić problemy typowania w komponentach dla najemców (błędy LSP)
+2. Brakujące tłumaczenia:
+Dodać tłumaczenia dla brakujących kluczy:
+home.hero.tagline
+home.features.learnMore
+3. Inne usprawnienia:
+Ujednolicić styl buttonów i kart w całej aplikacji
+Dodać responsywność dla widoków mobilnych
+Zaimplementować panel administracyjny
+Poprawić obsługę uwierzytelniania przez Replit Auth
+Połączyć zarządzanie najemcami z zarządzaniem nieruchomościami
+Dodać system powiadomień dla zbliżających się płatności i wygasających umów
+Kolejne kroki:
+Naprawić błędy w komponentach Link i poprawić ostrzeżenia a wewnątrz a
+Dodać brakujące tłumaczenia do plików językowych
+Zakończyć implementację modułu zarządzania najemcami
+Rozbudować system zarządzania płatnościami
+Dodać raportowanie i analitykę finansową
+
+Do zrobienia:
+Naprawić problemy z autoryzacją - widzę z logów, że mamy problem z logowaniem - użytkownicy nie mogą się zalogować do systemu.
+
+Naprawić błędy TypeScript w storage.ts - mamy kilka błędów związanych z typami w różnych metodach.
+
+Dodać obsługę CSV jako alternatywny format eksportu danych - obecnie wspieramy tylko JSON.
+
+Ulepszyć UX w QuickActions - możemy dodać więcej responsywności i lepsze wskazówki.
+
+Problemy do naprawienia:
+Problem z porównywaniem dat w zapytaniach SQL - w funkcjach getUpcomingEvents i innych mamy niepoprawne porównania obiektów Date.
+
+Brak funkcji eksportu CSV - potrzebujemy dodać alternatywny format eksportu danych.
+
+Problemy z logowaniem użytkowników - widzimy błędy 401 w logach, co sugeruje problemy z autentykacją.
