@@ -17,3 +17,4 @@ export function serveStatic(app: Express) {
   const distPath = path.join(__dirname, "public");
   app.use(express.static(distPath));
 }
+export const log = (...args: any[]) => console.log(...args);
